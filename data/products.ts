@@ -144,7 +144,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deditos Queso x25',
     category: 'Deditos',
     price: 14000,
-    image: 'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1619740455993-a71613ca07e4?w=400&h=300&fit=crop',
     description: 'Paquete x25 unidades.'
   },
   {
