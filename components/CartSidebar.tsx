@@ -110,17 +110,19 @@ export const CartSidebar: React.FC<CartSidebarProps> = ({
       return;
     }
 
-    // Generate WhatsApp Message in specific order
+    // Generate WhatsApp Message with aesthetic formatting
     const lines = [
-      `Hola, este es mi pedido:`,
+      `📦 Nuevo pedido recibido`,
       ``,
-      `1. Nombre completo: ${userInfo.name}`,
-      `2. Dirección: ${userInfo.address}`,
-      `3. Número de celular: ${userInfo.phone}`,
-      `4. Productos que desea pedir:`,
-      ...cart.map(item => `   • ${item.name} (x${item.quantity})`),
-      `   (Total: ${formatPrice(total)})`,
-      `5. Método de pago: ${userInfo.paymentMethod}`
+      `👤 Cliente: ${userInfo.name}`,
+      `📍 Dirección: ${userInfo.address}`,
+      `📞 Contacto: ${userInfo.phone}`,
+      ``,
+      `🛒 Productos:`,
+      ...cart.map(item => `• ${item.name} (x${item.quantity})`),
+      `(Total: ${formatPrice(total)})`,
+      ``,
+      `💳 Método de pago: ${userInfo.paymentMethod}`
     ];
 
     const fullMessage = lines.join('\n');
