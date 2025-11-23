@@ -25,9 +25,16 @@ const App: React.FC = () => {
   // Filter logic
   const filteredProducts = useMemo(() => {
     return PRODUCTS.filter((product) => {
+      // 1. Availability Filter: Hide if not available AND not set to show when sold out
+      if (product.disponible === false && product.mostrarAgotado === false) {
+        return false;
+      }
+
+      // 2. Category & Search Filters
       const matchesCategory = selectedCategory === 'Todos' || product.category === selectedCategory;
       const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                             product.description?.toLowerCase().includes(searchQuery.toLowerCase());
+      
       return matchesCategory && matchesSearch;
     });
   }, [selectedCategory, searchQuery]);
@@ -79,6 +86,9 @@ const App: React.FC = () => {
             {recommendedConfig.map((config) => {
               const originalProduct = PRODUCTS.find(p => p.id === config.id);
               if (!originalProduct) return null;
+
+              // Also hide recommended items if they are hidden in main grid
+              if (originalProduct.disponible === false && originalProduct.mostrarAgotado === false) return null;
 
               // Create a specialized version of the product for this section
               const promoProduct = {

@@ -11,6 +11,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAdd }) => {
   // Si product.image está vacío (porque es solo texto en el PDF), usamos estado de error directamente para mostrar el placeholder
   const [imgError, setImgError] = useState(!product.image);
   const imgRef = useRef<HTMLImageElement>(null);
+  
+  // Default to true if undefined to be safe, though strict types say boolean
+  const isAvailable = product.disponible !== false;
+  const isSoldOut = product.mostrarAgotado;
 
   const animateToCart = (imageElement: HTMLImageElement) => {
     const cartIcon = document.getElementById('cart-icon');
@@ -53,9 +57,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAdd }) => {
   }).format(product.price);
 
   return (
-    <div className="group flex flex-col bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 overflow-hidden h-full">
+    <div className={`group flex flex-col bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 overflow-hidden h-full ${!isAvailable ? 'opacity-90' : ''}`}>
       {/* Zona de Imagen */}
-      <div className="relative overflow-hidden aspect-[4/3] bg-gray-50">
+      <div className={`relative overflow-hidden aspect-[4/3] bg-gray-50 ${!isAvailable ? 'grayscale opacity-75' : ''}`}>
         {!imgError ? (
           <>
             <img
@@ -78,19 +82,28 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAdd }) => {
           </div>
         )}
         
-        {product.isNew && (
-          <span className="absolute top-2 left-2 bg-brand-500 text-white text-xs font-bold px-2 py-1 rounded-md shadow-sm">
-            NUEVO
-          </span>
-        )}
+        {/* Etiquetas superpuestas */}
+        <div className="absolute top-2 left-2 flex flex-col gap-1">
+          {product.isNew && isAvailable && (
+            <span className="bg-brand-500 text-white text-xs font-bold px-2 py-1 rounded-md shadow-sm">
+              NUEVO
+            </span>
+          )}
+          
+          {!isAvailable && (
+             <span className="bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-md shadow-sm tracking-wide">
+              AGOTADO
+            </span>
+          )}
+        </div>
       </div>
 
       <div className="flex flex-col flex-grow p-4">
         <div className="flex justify-between items-start gap-2 mb-2">
-          <h3 className="font-bold text-gray-800 leading-tight line-clamp-2">
+          <h3 className={`font-bold leading-tight line-clamp-2 ${!isAvailable ? 'text-gray-500' : 'text-gray-800'}`}>
             {product.name}
           </h3>
-          <span className="font-bold text-brand-600 whitespace-nowrap">
+          <span className={`font-bold whitespace-nowrap ${!isAvailable ? 'text-gray-400 line-through' : 'text-brand-600'}`}>
             {formattedPrice}
           </span>
         </div>
@@ -101,15 +114,28 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAdd }) => {
 
         <button
           onClick={() => {
-            onAdd(product);
-            if (imgRef.current) {
-              animateToCart(imgRef.current);
+            if (isAvailable) {
+              onAdd(product);
+              if (imgRef.current) {
+                animateToCart(imgRef.current);
+              }
             }
           }}
-          className="w-full mt-auto flex items-center justify-center gap-2 bg-gray-900 hover:bg-brand-600 text-white py-2.5 px-4 rounded-lg transition-colors duration-200 font-medium text-sm active:scale-95"
+          disabled={!isAvailable}
+          className={`w-full mt-auto flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg transition-colors duration-200 font-medium text-sm ${
+            isAvailable 
+              ? 'bg-gray-900 hover:bg-brand-600 text-white active:scale-95' 
+              : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+          }`}
         >
-          <Plus size={18} />
-          Agregar
+          {isAvailable ? (
+            <>
+              <Plus size={18} />
+              Agregar
+            </>
+          ) : (
+            'No disponible'
+          )}
         </button>
       </div>
     </div>

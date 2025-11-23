@@ -11,7 +11,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1AcdJrGBNcY1YRb9GDqSEJITzUxGpm6ju&sz=w1000',
-    description: 'Empanada rellena de pollo. Paquete por 6 unidades.'
+    description: 'Empanada rellena de pollo. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-pollo-queso-6',
@@ -19,7 +21,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'assets/images/dedito-pollo-queso-6.jpg',
-    description: 'Empanada rellena de pollo y queso. Paquete por 6 unidades.'
+    description: 'Empanada rellena de pollo y queso. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-carne-6',
@@ -27,7 +31,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1dtAMLy0cj5aQPIav1RZ3jKu3IDG0Xw3b&sz=w1000',
-    description: 'Empanada rellena de carne. Paquete por 6 unidades.'
+    description: 'Empanada rellena de carne. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-hawaiana-6',
@@ -35,7 +41,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1Tyk-U5uy8Wo7DI7teBmb0jH_z3vYJQTK&sz=w1000',
-    description: 'Empanada hawaiana. Paquete por 6 unidades.'
+    description: 'Empanada hawaiana. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-maiz-pollo-queso-6',
@@ -43,7 +51,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1g1Dliv0GifSGsmuyF1EFZdfc4Gtaip6D&sz=w1000',
-    description: 'Masa de maíz con pollo y queso. Paquete por 6 unidades.'
+    description: 'Masa de maíz con pollo y queso. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-jamon-queso-6',
@@ -51,7 +61,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1SvJn_GBDqnCYEzP4w-qs1XUjBHJ-sWu0&sz=w1000',
-    description: 'Empanada de jamón y queso. Paquete por 6 unidades.'
+    description: 'Empanada de jamón y queso. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-espinaca-6',
@@ -59,7 +71,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1WVTiyid5TBtzUwYv2UpKj1mXMpzQrvXD&sz=w1000',
-    description: 'Queso y cebolla (Espinaca). Paquete por 6 unidades.'
+    description: 'Queso y cebolla (Espinaca). Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-ranchera-6',
@@ -67,7 +81,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1208q4GxYueIASUKUiGmxA7wBcjzHClN2&sz=w1000',
-    description: 'Maíz y queso (Ranchera). Paquete por 6 unidades.'
+    description: 'Maíz y queso (Ranchera). Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-napolitana-6',
@@ -75,7 +91,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=14io_pwCV3cjnHEeBRCquXbgjZHTPsYpd&sz=w1000',
-    description: 'Tomate, queso y orégano. Paquete por 6 unidades.'
+    description: 'Tomate, queso y orégano. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-salvaje-6',
@@ -83,7 +101,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1VUNsKMb3y0E9ag37PCpM46RiYva-JTXu&sz=w1000',
-    description: 'Chorizo, butifarra, maíz y queso. Paquete por 6 unidades.'
+    description: 'Chorizo, butifarra, maíz y queso. Paquete por 6 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-platano-6',
@@ -91,7 +111,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x6',
     price: 14000,
     image: '', // No tiene foto individual clara en el grid, es un banner.
-    description: 'Nueva presentación de plátano maduro.'
+    description: 'Nueva presentación de plátano maduro.',
+    disponible: false,
+    mostrarAgotado: true
   },
 
   // --- PERSONALES (COLUMNA DERECHA CON FOTOS) ---
@@ -101,7 +123,9 @@ export const PRODUCTS: Product[] = [
     category: 'Personales',
     price: 13000,
     image: 'assets/images/dedito-queso-x8-25g.jpg',
-    description: 'Dedito de queso tamaño personal (25g).'
+    description: 'Dedito de queso tamaño personal (25g).',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-queso-8-40g',
@@ -109,7 +133,9 @@ export const PRODUCTS: Product[] = [
     category: 'Personales',
     price: 15000,
     image: 'assets/images/dedito-queso-x8-40g.jpg',
-    description: 'Dedito de queso tamaño personal grande (40g).'
+    description: 'Dedito de queso tamaño personal grande (40g).',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-cazador-7',
@@ -117,7 +143,9 @@ export const PRODUCTS: Product[] = [
     category: 'Personales',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=19_3CRoEZ02YyIY6C4QTFr19W40fSDMJF&sz=w1000',
-    description: 'Dedito con salchicha cazadora.'
+    description: 'Dedito con salchicha cazadora.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-jamon-7',
@@ -125,7 +153,9 @@ export const PRODUCTS: Product[] = [
     category: 'Personales',
     price: 15000,
     image: 'https://drive.google.com/thumbnail?id=16M_RqDy39p4Pg0MPzDMSyruKMKwRN60T&sz=w1000',
-    description: 'Dedito de jamón.'
+    description: 'Dedito de jamón.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-bocadillo-7',
@@ -133,7 +163,9 @@ export const PRODUCTS: Product[] = [
     category: 'Personales',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1BWgmQIiPxCVmmK_ea-3Wdg25VOVQEO8H&sz=w1000',
-    description: 'Dedito de bocadillo.'
+    description: 'Dedito de bocadillo.',
+    disponible: true,
+    mostrarAgotado: false
   },
 
   // --- LISTADOS (ALGUNOS CON FOTO) ---
@@ -145,7 +177,9 @@ export const PRODUCTS: Product[] = [
     category: 'Deditos',
     price: 14000,
     image: 'assets/images/dedito-queso-x25.jpg',
-    description: 'Paquete x25 unidades.'
+    description: 'Paquete x25 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-queso-60',
@@ -153,7 +187,9 @@ export const PRODUCTS: Product[] = [
     category: 'Deditos',
     price: 32000,
     image: '',
-    description: 'Paquete x60 unidades.'
+    description: 'Paquete x60 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-doble-queso-16',
@@ -161,7 +197,9 @@ export const PRODUCTS: Product[] = [
     category: 'Deditos',
     price: 13000,
     image: '',
-    description: 'Paquete x16 unidades.'
+    description: 'Paquete x16 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'dedito-doble-queso-25',
@@ -169,7 +207,9 @@ export const PRODUCTS: Product[] = [
     category: 'Deditos',
     price: 19000,
     image: '',
-    description: 'Paquete x25 unidades.'
+    description: 'Paquete x25 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
 
   // Empanadas
@@ -179,7 +219,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x18',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1AcdJrGBNcY1YRb9GDqSEJITzUxGpm6ju&sz=w1000',
-    description: 'Paquete x18 unidades.'
+    description: 'Paquete x18 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'emp-pollo-queso-18',
@@ -187,7 +229,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x18',
     price: 14000,
     image: '',
-    description: 'Paquete x18 unidades.'
+    description: 'Paquete x18 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'emp-carne-18',
@@ -195,7 +239,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x18',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1dtAMLy0cj5aQPIav1RZ3jKu3IDG0Xw3b&sz=w1000',
-    description: 'Paquete x18 unidades.'
+    description: 'Paquete x18 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'emp-ranchera-18',
@@ -203,7 +249,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x18',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1208q4GxYueIASUKUiGmxA7wBcjzHClN2&sz=w1000',
-    description: 'Maíz y queso. Paquete x18 unidades.'
+    description: 'Maíz y queso. Paquete x18 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'emp-jamon-queso-18',
@@ -211,7 +259,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x18',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1SvJn_GBDqnCYEzP4w-qs1XUjBHJ-sWu0&sz=w1000',
-    description: 'Paquete x18 unidades.'
+    description: 'Paquete x18 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'emp-hawaiana-18',
@@ -219,7 +269,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x18',
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=1Tyk-U5uy8Wo7DI7teBmb0jH_z3vYJQTK&sz=w1000',
-    description: 'Paquete x18 unidades.'
+    description: 'Paquete x18 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'emp-bocadillo-queso-18',
@@ -227,7 +279,9 @@ export const PRODUCTS: Product[] = [
     category: 'Empanadas x18',
     price: 14000,
     image: '',
-    description: 'Paquete x18 unidades.'
+    description: 'Paquete x18 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
 
   // Bolitas y Medallones
@@ -237,7 +291,9 @@ export const PRODUCTS: Product[] = [
     category: 'Bolitas y Medallones',
     price: 10000,
     image: '',
-    description: 'Salchicha cazadora. Paquete x25 unidades.'
+    description: 'Salchicha cazadora. Paquete x25 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'bolitas-fenix-20',
@@ -245,7 +301,9 @@ export const PRODUCTS: Product[] = [
     category: 'Bolitas y Medallones',
     price: 10000,
     image: '',
-    description: 'Bolitas pequeñas de carne. Paquete x20 unidades.'
+    description: 'Bolitas pequeñas de carne. Paquete x20 unidades.',
+    disponible: true,
+    mostrarAgotado: false
   },
 
   // Surtidos
@@ -255,7 +313,9 @@ export const PRODUCTS: Product[] = [
     category: 'Surtidos',
     price: 37000,
     image: '',
-    description: 'Deditos, empanadas surtidas, bolitas de carne y medallón de salchicha cazadora. (x60 unidades aprox según gráfico)'
+    description: 'Deditos, empanadas surtidas, bolitas de carne y medallón de salchicha cazadora. (x60 unidades aprox según gráfico)',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'surtido-42',
@@ -263,7 +323,9 @@ export const PRODUCTS: Product[] = [
     category: 'Surtidos',
     price: 42000,
     image: '',
-    description: 'Deditos doble queso y empanadas surtidas. (x50 unidades aprox según gráfico)'
+    description: 'Deditos doble queso y empanadas surtidas. (x50 unidades aprox según gráfico)',
+    disponible: true,
+    mostrarAgotado: false
   },
   {
     id: 'surtido-56',
@@ -271,7 +333,9 @@ export const PRODUCTS: Product[] = [
     category: 'Surtidos',
     price: 56000,
     image: '',
-    description: 'Deditos, empanadas surtidas, bolitas de carne y medallón de salchicha cazadora. (x100 unidades aprox según gráfico)'
+    description: 'Deditos, empanadas surtidas, bolitas de carne y medallón de salchicha cazadora. (x100 unidades aprox según gráfico)',
+    disponible: true,
+    mostrarAgotado: false
   }
 ];
 
