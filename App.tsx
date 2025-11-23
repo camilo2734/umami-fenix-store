@@ -61,7 +61,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">Catálogo Digital</h2>
           <p className="text-brand-100 max-w-2xl">
-            Descubre nuestros deliciosos fritos congelados y listos para comer. Empanadas, deditos y mucho más.
+            Descubre nuestros deliciosos fritos congelados, perfectos para preparar en casa. Empanadas, deditos y mucho más.
           </p>
         </div>
       </div>

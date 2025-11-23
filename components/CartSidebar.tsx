@@ -124,7 +124,7 @@ export const CartSidebar: React.FC<CartSidebarProps> = ({
     ];
 
     const fullMessage = lines.join('\n');
-    const whatsappUrl = `https://wa.me/573022679121?text=${encodeURIComponent(fullMessage)}`;
+    const whatsappUrl = `https://wa.me/573132254054?text=${encodeURIComponent(fullMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 

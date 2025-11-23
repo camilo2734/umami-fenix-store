@@ -10,7 +10,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada de Pollo x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-pollo-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1AcdJrGBNcY1YRb9GDqSEJITzUxGpm6ju&sz=w1000',
     description: 'Empanada rellena de pollo. Paquete por 6 unidades.'
   },
   {
@@ -26,7 +26,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada de Carne x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-carne-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1dtAMLy0cj5aQPIav1RZ3jKu3IDG0Xw3b&sz=w1000',
     description: 'Empanada rellena de carne. Paquete por 6 unidades.'
   },
   {
@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada Hawaiana x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-hawaiana-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1Tyk-U5uy8Wo7DI7teBmb0jH_z3vYJQTK&sz=w1000',
     description: 'Empanada hawaiana. Paquete por 6 unidades.'
   },
   {
@@ -42,7 +42,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada de Maíz/Pollo/Queso x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-maiz-pollo-queso-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1g1Dliv0GifSGsmuyF1EFZdfc4Gtaip6D&sz=w1000',
     description: 'Masa de maíz con pollo y queso. Paquete por 6 unidades.'
   },
   {
@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada de Jamón/Queso x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-jamon-queso-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1SvJn_GBDqnCYEzP4w-qs1XUjBHJ-sWu0&sz=w1000',
     description: 'Empanada de jamón y queso. Paquete por 6 unidades.'
   },
   {
@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada de Espinaca x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-espinaca-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1WVTiyid5TBtzUwYv2UpKj1mXMpzQrvXD&sz=w1000',
     description: 'Queso y cebolla (Espinaca). Paquete por 6 unidades.'
   },
   {
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada Ranchera x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-ranchera-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1208q4GxYueIASUKUiGmxA7wBcjzHClN2&sz=w1000',
     description: 'Maíz y queso (Ranchera). Paquete por 6 unidades.'
   },
   {
@@ -74,7 +74,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada Napolitana x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-napolitana-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=14io_pwCV3cjnHEeBRCquXbgjZHTPsYpd&sz=w1000',
     description: 'Tomate, queso y orégano. Paquete por 6 unidades.'
   },
   {
@@ -82,7 +82,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada Salvaje x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-salvaje-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1VUNsKMb3y0E9ag37PCpM46RiYva-JTXu&sz=w1000',
     description: 'Chorizo, butifarra, maíz y queso. Paquete por 6 unidades.'
   },
   {
@@ -116,7 +116,7 @@ export const PRODUCTS: Product[] = [
     name: 'Dedito Cazador x7',
     category: 'Personales',
     price: 14000,
-    image: 'assets/images/dedito-cazador-x7.jpg',
+    image: 'https://drive.google.com/thumbnail?id=19_3CRoEZ02YyIY6C4QTFr19W40fSDMJF&sz=w1000',
     description: 'Dedito con salchicha cazadora.'
   },
   {
@@ -124,7 +124,7 @@ export const PRODUCTS: Product[] = [
     name: 'Dedito Jamón/Queso x7',
     category: 'Personales',
     price: 15000,
-    image: 'assets/images/dedito-jamon-x7.jpg',
+    image: 'https://drive.google.com/thumbnail?id=16M_RqDy39p4Pg0MPzDMSyruKMKwRN60T&sz=w1000',
     description: 'Dedito de jamón.'
   },
   {
@@ -132,7 +132,7 @@ export const PRODUCTS: Product[] = [
     name: 'Dedito de Bocadillo/Queso x7',
     category: 'Personales',
     price: 14000,
-    image: 'assets/images/dedito-bocadillo-x7.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1BWgmQIiPxCVmmK_ea-3Wdg25VOVQEO8H&sz=w1000',
     description: 'Dedito de bocadillo.'
   },
 
@@ -144,7 +144,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deditos Queso x25',
     category: 'Deditos',
     price: 14000,
-    image: 'https://images.unsplash.com/photo-1619740455993-a71613ca07e4?w=400&h=300&fit=crop',
+    image: 'assets/images/dedito-queso-x25.jpg',
     description: 'Paquete x25 unidades.'
   },
   {
@@ -178,7 +178,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanadas Pollo x18',
     category: 'Empanadas x18',
     price: 14000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1AcdJrGBNcY1YRb9GDqSEJITzUxGpm6ju&sz=w1000',
     description: 'Paquete x18 unidades.'
   },
   {
@@ -194,7 +194,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanadas Carne x18',
     category: 'Empanadas x18',
     price: 14000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1dtAMLy0cj5aQPIav1RZ3jKu3IDG0Xw3b&sz=w1000',
     description: 'Paquete x18 unidades.'
   },
   {
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanadas Ranchera x18',
     category: 'Empanadas x18',
     price: 14000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1208q4GxYueIASUKUiGmxA7wBcjzHClN2&sz=w1000',
     description: 'Maíz y queso. Paquete x18 unidades.'
   },
   {
@@ -210,7 +210,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanadas Jamón/Queso x18',
     category: 'Empanadas x18',
     price: 14000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1SvJn_GBDqnCYEzP4w-qs1XUjBHJ-sWu0&sz=w1000',
     description: 'Paquete x18 unidades.'
   },
   {
@@ -218,7 +218,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanadas Hawaiana x18',
     category: 'Empanadas x18',
     price: 14000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1Tyk-U5uy8Wo7DI7teBmb0jH_z3vYJQTK&sz=w1000',
     description: 'Paquete x18 unidades.'
   },
   {
