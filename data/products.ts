@@ -1,3 +1,4 @@
+// Actualizado con imágenes - 24 nov 2025
 import { Product } from '../types';
 
 // LISTA ESTRICTA DE PRODUCTOS (Basada 100% en el PDF)
@@ -329,4 +330,14 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'surtido-56',
-    name: 'Surtidos x1
+    name: 'Surtidos x100',
+    category: 'Surtidos',
+    price: 56000,
+    image: 'https://drive.google.com/thumbnail?id=1jn3kNvrE958xdmDXnHvOxvZFvGTTMXiB&sz=w400',
+    description: 'Deditos, empanadas surtidas, bolitas de carne y medallón de salchicha cazadora. (x100 unidades aprox según gráfico)',
+    disponible: true,
+    mostrarAgotado: false
+  }
+];
+
+export const CATEGORIES = Array.from(new Set(PRODUCTS.map(p => p.category)));
