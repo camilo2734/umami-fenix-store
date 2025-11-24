@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada Pollo/Queso x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: 'assets/images/dedito-pollo-queso-6.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1ZaHsS6HnUDkNVWn2ooyY7-Y_rrss0Q1I&sz=w400',
     description: 'Empanada rellena de pollo y queso. Paquete por 6 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -110,7 +110,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanada de Plátano Maduro x6',
     category: 'Empanadas x6',
     price: 14000,
-    image: '', // No tiene foto individual clara en el grid, es un banner.
+    image: 'https://drive.google.com/thumbnail?id=1Z34wCi0WqqmFpM67B0xTjFdyH9beaay9&sz=w400',
     description: 'Nueva presentación de plátano maduro.',
     disponible: false,
     mostrarAgotado: true
@@ -122,7 +122,7 @@ export const PRODUCTS: Product[] = [
     name: 'Dedito Queso x8 (25g)',
     category: 'Personales',
     price: 13000,
-    image: 'assets/images/dedito-queso-x8-25g.jpg',
+    image: 'https://drive.google.com/thumbnail?id=18FBch-IwwlZyTH4X3jjXy3bRWXZ__p4-&sz=w400',
     description: 'Dedito de queso tamaño personal (25g).',
     disponible: true,
     mostrarAgotado: false
@@ -132,7 +132,7 @@ export const PRODUCTS: Product[] = [
     name: 'Dedito Queso x8 (40g)',
     category: 'Personales',
     price: 15000,
-    image: 'assets/images/dedito-queso-x8-40g.jpg',
+    image: 'https://drive.google.com/thumbnail?id=1yswqiXwus6_TLGg9x3SXbexqekMYJCH3&sz=w400',
     description: 'Dedito de queso tamaño personal grande (40g).',
     disponible: true,
     mostrarAgotado: false
@@ -176,7 +176,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deditos Queso x25',
     category: 'Deditos',
     price: 14000,
-    image: 'assets/images/dedito-queso-x25.jpg',
+    image: 'https://drive.google.com/thumbnail?id=18FBch-IwwlZyTH4X3jjXy3bRWXZ__p4-&sz=w400',
     description: 'Paquete x25 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -186,7 +186,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deditos Queso x60',
     category: 'Deditos',
     price: 32000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=18FBch-IwwlZyTH4X3jjXy3bRWXZ__p4-&sz=w400',
     description: 'Paquete x60 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -196,7 +196,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deditos Doble Queso x16',
     category: 'Deditos',
     price: 13000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1yswqiXwus6_TLGg9x3SXbexqekMYJCH3&sz=w400',
     description: 'Paquete x16 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -206,7 +206,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deditos Doble Queso x25',
     category: 'Deditos',
     price: 19000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1yswqiXwus6_TLGg9x3SXbexqekMYJCH3&sz=w400',
     description: 'Paquete x25 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -228,7 +228,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanadas Pollo/Queso x18',
     category: 'Empanadas x18',
     price: 14000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1ZaHsS6HnUDkNVWn2ooyY7-Y_rrss0Q1I&sz=w400',
     description: 'Paquete x18 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -278,7 +278,7 @@ export const PRODUCTS: Product[] = [
     name: 'Empanadas Bocadillo/Queso x18',
     category: 'Empanadas x18',
     price: 14000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=12NiPo4GmApEZhwoHzfg91DzbmVUrmVGA&sz=w400',
     description: 'Paquete x18 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -290,7 +290,7 @@ export const PRODUCTS: Product[] = [
     name: 'Medallones Salchicha x25',
     category: 'Bolitas y Medallones',
     price: 10000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1Uv6hoGasjHQq7eAQe41JXjHnmf3Hghol&sz=w400',
     description: 'Salchicha cazadora. Paquete x25 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -300,7 +300,7 @@ export const PRODUCTS: Product[] = [
     name: 'Bolitas Fénix (Carne) x20',
     category: 'Bolitas y Medallones',
     price: 10000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1wOQM5BnSP91Y2_TYkJY5jQBJerFCKigq&sz=w400',
     description: 'Bolitas pequeñas de carne. Paquete x20 unidades.',
     disponible: true,
     mostrarAgotado: false
@@ -312,7 +312,7 @@ export const PRODUCTS: Product[] = [
     name: 'Surtidos x60',
     category: 'Surtidos',
     price: 37000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1c0JI-U-rq54zvLLF2m8MqLlSl16zvRRt&sz=w400',
     description: 'Deditos, empanadas surtidas, bolitas de carne y medallón de salchicha cazadora. (x60 unidades aprox según gráfico)',
     disponible: true,
     mostrarAgotado: false
@@ -322,21 +322,11 @@ export const PRODUCTS: Product[] = [
     name: 'Surtidos x50',
     category: 'Surtidos',
     price: 42000,
-    image: '',
+    image: 'https://drive.google.com/thumbnail?id=1E40H9NbQ8yq4ew6FNklUaXIKdlmQn6hC&sz=w400',
     description: 'Deditos doble queso y empanadas surtidas. (x50 unidades aprox según gráfico)',
     disponible: true,
     mostrarAgotado: false
   },
   {
     id: 'surtido-56',
-    name: 'Surtidos x100',
-    category: 'Surtidos',
-    price: 56000,
-    image: '',
-    description: 'Deditos, empanadas surtidas, bolitas de carne y medallón de salchicha cazadora. (x100 unidades aprox según gráfico)',
-    disponible: true,
-    mostrarAgotado: false
-  }
-];
-
-export const CATEGORIES = Array.from(new Set(PRODUCTS.map(p => p.category)));
+    name: 'Surtidos x1
