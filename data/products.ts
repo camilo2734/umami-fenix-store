@@ -92,8 +92,8 @@ export const PRODUCTS: Product[] = [
     price: 14000,
     image: 'https://drive.google.com/thumbnail?id=14io_pwCV3cjnHEeBRCquXbgjZHTPsYpd&sz=w1000',
     description: 'Tomate, queso y orégano. Paquete por 6 unidades.',
-    disponible: true,
-    mostrarAgotado: false
+    disponible: false,
+    mostrarAgotado: true
   },
   {
     id: 'dedito-salvaje-6',
